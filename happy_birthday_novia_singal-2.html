@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Novia Singal</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #fff1f5, #f7e8ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4a3b42;
+    overflow: hidden;
+  }
+  .card {
+    width: min(90%, 430px);
+    background: rgba(255,255,255,.9);
+    border-radius: 28px;
+    padding: 38px 28px;
+    text-align: center;
+    box-shadow: 0 15px 45px rgba(100,70,90,.15);
+    animation: naik .8s ease;
+  }
+  .cake { font-size: 62px; margin-bottom: 8px; }
+  h1 {
+    margin: 8px 0;
+    font-size: 31px;
+    color: #b85c83;
+  }
+  h2 {
+    margin: 0 0 22px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #80616f;
+  }
+  p {
+    line-height: 1.7;
+    font-size: 16px;
+    margin: 14px 0;
+  }
+  .message {
+    background: #fff7fa;
+    border-radius: 18px;
+    padding: 18px;
+    margin: 20px 0;
+  }
+  .footer {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #927784;
+  }
+  .heart {
+    position: fixed;
+    font-size: 22px;
+    animation: jatuh linear infinite;
+    opacity: .7;
+  }
+  .heart:nth-child(1){left:10%;animation-duration:7s;animation-delay:0s}
+  .heart:nth-child(2){left:28%;animation-duration:9s;animation-delay:2s}
+  .heart:nth-child(3){left:52%;animation-duration:8s;animation-delay:1s}
+  .heart:nth-child(4){left:75%;animation-duration:10s;animation-delay:3s}
+  .heart:nth-child(5){left:90%;animation-duration:7.5s;animation-delay:1.5s}
+  @keyframes jatuh {
+    from { transform: translateY(-10vh) rotate(0deg); }
+    to { transform: translateY(110vh) rotate(360deg); }
+  }
+  @keyframes naik {
+    from { opacity:0; transform:translateY(25px); }
+    to { opacity:1; transform:translateY(0); }
+  }
+</style>
+</head>
+<body>
+  <div class="heart">♡</div>
+  <div class="heart">♡</div>
+  <div class="heart">♡</div>
+  <div class="heart">♡</div>
+  <div class="heart">♡</div>
+
+  <main class="card">
+    <div class="cake">🎂</div>
+    <h1>Happy Birthday!</h1>
+    <h2>Novia Singal 🌷</h2>
+
+    <div class="message">
+      <p>Selamat ulang tahun, Novia! 🎉</p>
+      <p>
+        Semoga di hari spesial ini kamu selalu diberikan kesehatan,
+        kebahagiaan, dan banyak hal baik dalam hidup.
+      </p>
+      <p>
+        Semoga semua yang kamu impikan bisa tercapai,
+        dan semoga hari-harimu ke depan dipenuhi hal-hal yang menyenangkan. ✨
+      </p>
+    </div>
+
+    <p>Have a wonderful birthday! 🥳</p>
+
+    <div class="footer">
+      Dari temanmu, dengan ucapan sederhana 🤍
+    </div>
+  </main>
+</body>
+</html>
